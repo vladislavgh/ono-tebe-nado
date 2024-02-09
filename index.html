@@ -14,8 +14,8 @@
     <header class="header">
       <nav class="header_menu">
         <ul class="header_menu-list">
-          <li class="header_menu-item_active">
-            <a>главная</a>
+          <li class="header_menu-item-main">
+            <a class="header_menu-item_active" href="#">главная</a>
           </li>
           <li class="header_menu-item">
             <a href="#">посмотреть лоты</a>
@@ -58,14 +58,14 @@
         <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="align_text"
-            >ОН<span class="letter_spacing-extended-O">О</span>
+            >О<span class="letter_spacing-extended">НО</span>
           </span>
           <span class="align_text align_text-center"
             >ТЕ<span class="letter_spacing-extended">БЕ</span>
           </span>
-          <span class="align_text align_text-right">
+          <span class="align_text-right">
             <span class="letter_spacing-extended">Н</span>АД<span
-              class="letter_spacing-extended-H"
+              class="letter_spacing-extended-reset"
               >О</span
             >
           </span>
@@ -74,7 +74,7 @@
           <h2 class="cover_description-text">
             аукцион вещей, в которые никто не верил
           </h2>
-          <button class="button_cover">Сделать ставку</button>
+          <button type="button" class="button_cover">Сделать ставку</button>
         </div>
       </section>
       <!--Первая секция конец-->
@@ -82,80 +82,72 @@
       <!--Секция с карточками начало-->
       <section class="lots">
         <h2 class="lots_title">Лоты</h2>
-
         <ul class="cards_list">
           <li>
-            <article class="card">
-              <div class="overlay_lots_card"></div>
-              <img
-                class="card_background"
-                src="./images/card-lot-01.jpg"
-                alt="Фон первого лота"
-              />
-              <div class="card_content">
-                <h3 class="card_title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <div class="card_text-lot-1">
-                  <p>
-                    Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                    ставка, если бы вы не знали, что режиссёр — Пол Томас
-                    Андерсон?
-                  </p>
+            <a href="#">
+              <article class="card_film">
+                <div class="card_content">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">
+                    Фильм режиссёра, который бросил киношколу
+                  </h3>
+                  <div class="card_text-lot-film">
+                    <p>
+                      Не просто бросил, а ушёл с первой лекции. Какой была бы
+                      ваша ставка, если бы вы не знали, что режиссёр — Пол Томас
+                      Андерсон?
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </a>
           </li>
           <li>
-            <article class="card">
-              <div class="overlay_lots_card"></div>
-              <img
-                class="card_background"
-                src="./images/card-lot-02.jpg"
-                alt="Фон второго лота"
-              />
-              <div class="card_content">
-                <h3 class="card_title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <div class="card_text">
-                  <p>
-                    Объёмом почти в тысячу страниц. Иногда без знаков препинания
-                    и с переходами на древнеанглийский. В ней одновременно
-                    рассказывается о 16 июня 1904 года и об истории литературы,
-                    начиная с античных времён. И это всё накладывается на
-                    эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                    Джеймса Джойса?
-                  </p>
+            <a href="#">
+              <article class="card_book">
+                <div class="card_content">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">
+                    Книга, где описан один скучный день из жизни рекламного
+                    агента
+                  </h3>
+                  <div class="card_text">
+                    <p>
+                      Объёмом почти в тысячу страниц. Иногда без знаков
+                      препинания и с переходами на древнеанглийский. В ней
+                      одновременно рассказывается о 16 июня 1904 года и об
+                      истории литературы, начиная с античных времён. И это всё
+                      накладывается на эпическую поэму Гомера. Сколько бы вы
+                      поставили на «Улисса» Джеймса Джойса?
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </a>
           </li>
           <li>
-            <article class="card">
-              <div class="overlay_lots_card"></div>
-              <img
-                class="card_background"
-                src="./images/card-lot-03.jpg"
-                alt="Фон третьего лота"
-              />
-              <div class="card_content">
-                <h3 class="card_title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <div class="card_text-lot-3">
-                  <p>
-                    Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                    что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                    котиков. . . Сколько бы вы на такое поставили, если бы не
-                    знали, что это — одна из революционных работ Кандинского?
-                  </p>
+            <a href="#">
+              <article class="card_picture">
+                <div class="card_content">
+                  <div class="overlay"></div>
+                  <h3 class="card_title">
+                    Картина, которую повторит даже 5-летний сын маминой подруги
+                  </h3>
+                  <div class="card_text-lot-picture">
+                    <p>
+                      Ну действительно, там линия, тут кружочек, а здесь и вовсе
+                      что-то похожее на инфузорию-туфельку. Никаких полей,
+                      лесов, котиков. . . Сколько бы вы на такое поставили, если
+                      бы не знали, что это — одна из революционных работ
+                      Кандинского?
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+            </a>
           </li>
         </ul>
-        <h3 class="lots_footer">посмотреть больше</h3>
+        <a class="lots_footer" href="#">посмотреть больше</a>
       </section>
 
       <!--Секция с карточками конец-->
@@ -175,16 +167,15 @@
           <div class="about_text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
-              дорогого антиквариата. Наши лоты вообще не должны были попасть<br />
-              ни на один аукцион. Потому что кому нужен дневник
-              девочки-подростка или картина, которую может нарисовать даже
-              ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
             </p>
-            <p class="separate_p">
+            <p>
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
-              непонятые. Когда-то они казались просто неудачными. Но,
-              несмотря<br />
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
               на критику, кажущуюся простоту или сложность, сейчас без этих
               лотов невозможно представить современную культуру. Когда в эти
               вещи не верил никто, продолжали верить их создатели. И сейчас эти
@@ -199,7 +190,7 @@
 
     <!--Футер начало-->
     <footer class="footer">
-      <address class="footer_address-menu">
+      <address class="address_menu">
         <ul class="address_menu-list">
           <li>
             <a href="tel:99995555555">+9 999 555 5555</a>
@@ -217,8 +208,8 @@
       </address>
       <nav class="header_menu">
         <ul class="footer_menu-list">
-          <li class="header_menu-item_active">
-            <a>главная</a>
+          <li class="footer_menu-item">
+            <a class="footer_menu-item_active" href="#">главная</a>
           </li>
           <li class="footer_menu-item">
             <a href="#">посмотреть лоты</a>
@@ -228,37 +219,35 @@
           </li>
         </ul>
       </nav>
-      <div>
-        <ul class="footer_icons-list">
-          <li>
-            <a href="#">
-              <img
-                class="footer_icon-youtube"
-                src="./images/yt.svg"
-                alt="Логотип проектной работы"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="footer_icon-vk"
-                src="./images/vk.svg"
-                alt="Логотип проектной работы"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                class="footer_icon-bum"
-                src="./images/pinterest.svg"
-                alt="Логотип проектной работы"
-              />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="footer_icons-list">
+        <li>
+          <a href="#">
+            <img
+              class="footer_icon"
+              src="./images/yt.svg"
+              alt="Логотип проектной работы"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              class="footer_icon"
+              src="./images/vk.svg"
+              alt="Логотип проектной работы"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              class="footer_icon"
+              src="./images/pinterest.svg"
+              alt="Логотип проектной работы"
+            />
+          </a>
+        </li>
+      </ul>
     </footer>
     <!--Футер конец-->
   </body>
